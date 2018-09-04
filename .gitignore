@@ -1,0 +1,18 @@
+#If correct files not listed after git ignore chage:  git rm -rf --cached .
+#Ignore the file.
+
+wp-config.php
+
+#Ignore completely the dirs.
+
+dru/* 
+jom/* 
+mod/* 
+magen/* 
+typo/*
+
+#Ignore everything except plugins and themes directory.
+
+wp-content/*
+!wp-content/themes
+
